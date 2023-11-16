@@ -13,7 +13,7 @@ public class HelloWorldApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		
-		logger.info("Its a continous integration job")
+		logger.info("Its a continous integration job");
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
